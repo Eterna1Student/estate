@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'GolosText-Regular';
+    src: url('../fonts/GolosText-Regular.woff2') format('woff2'),
+         url('../fonts/GolosText-Regular.woff') format('woff'); 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Merriweather-Bold';
+    src: url('../fonts/Merriweather-Bold.woff2') format('woff2'),
+         url('../fonts/Merriweather-Bold.woff') format('woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Merriweather-Regular'; 
+    src: url('../fonts/Merriweather-Regular.woff2') format('woff2'), 
+         url('../fonts/Merriweather-Regular.woff') format('woff'); 
+    font-style: normal; 
+}
+
+
+
+:root {
+    --spm-blue: #0048CE;
+    --dark-blue: #7D8CB4;
+    --cornflower: #799EE5;
+    --copyright: #799fe57c;
+    --white: #fff;
+    --black: #000;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 0 20px;
+}
+
+a, span {
+    display: block;
+}
+
+
